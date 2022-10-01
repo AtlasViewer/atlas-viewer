@@ -829,58 +829,34 @@
         <string>fmodstudio</string>
         <key>platforms</key>
         <map>
-          <key>darwin</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>4a4e1bfd0e1e982643e75533ead10c55</string>
-              <key>hash_algorithm</key>
-              <string>md5</string>
-              <key>url</key>
-              <string>https://pkg.alchemyviewer.org/repository/autobuild-internal/fmodstudio/darwin/fmodstudio-2.00.03.192211300-darwin-192211300.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>darwin</string>
-          </map>
           <key>darwin64</key>
           <map>
             <key>archive</key>
             <map>
+              <key>creds</key>
+              <string>gitlab</string>
               <key>hash</key>
-              <string>fe1a606582fb72d5d1c9ec4a2d906830</string>
+              <string>db27e5c974e41d822c75038a6816b07362d54f1b0a64f21a63f0b7076f94c4a34934145bc326a1cc946996abec4b9a5c47e8ef9c68a694e129f09876080d74ac</string>
               <key>hash_algorithm</key>
-              <string>md5</string>
+              <string>blake2b</string>
               <key>url</key>
-              <string>https://pkg.alchemyviewer.org/repository/autobuild-internal/fmodstudio/darwin64/fmodstudio-2.00.03.192211302-darwin64-192211302.tar.bz2</string>
+              <string>https://git.alchemyviewer.org/api/v4/projects/49/packages/generic/fmodstudio/2.02.06.1475/fmodstudio-2.02.06-darwin64-1475.tar.zst</string>
             </map>
             <key>name</key>
             <string>darwin64</string>
-          </map>
-          <key>linux</key>
-          <map>
-            <key>archive</key>
-            <map>
-              <key>hash</key>
-              <string>1331456a3df95294eaf44fab990f62cd</string>
-              <key>hash_algorithm</key>
-              <string>md5</string>
-              <key>url</key>
-              <string>https://depot.alchemyviewer.org/pub/linux/lib/fmodstudio-1.06.07-linux-201507231333.tar.bz2</string>
-            </map>
-            <key>name</key>
-            <string>linux</string>
           </map>
           <key>linux64</key>
           <map>
             <key>archive</key>
             <map>
+              <key>creds</key>
+              <string>gitlab</string>
               <key>hash</key>
-              <string>7f631a7f1742a5786e1f9de1d2424350</string>
+              <string>f430175d7af2a8f5e084cd789df904944b117eebb462211eafa80ea5c7f23399449c5a52faf35b3b81a09c51fdff0273741fb32c55f9c615a51b1f15a5094ca5</string>
               <key>hash_algorithm</key>
-              <string>md5</string>
+              <string>blake2b</string>
               <key>url</key>
-              <string>https://pkg.alchemyviewer.org/repository/autobuild-internal/fmodstudio/linux64/fmodstudio-2.01.04.417-linux64-417.tar.bz2</string>
+              <string>https://git.alchemyviewer.org/api/v4/projects/49/packages/generic/fmodstudio/2.02.06.1475/fmodstudio-2.02.06-linux64-1475.tar.zst</string>
             </map>
             <key>name</key>
             <string>linux64</string>
@@ -903,19 +879,21 @@
           <map>
             <key>archive</key>
             <map>
+              <key>creds</key>
+              <string>gitlab</string>
               <key>hash</key>
-              <string>e13b156ca861c36b388e18df0e8e20fb</string>
+              <string>7ad5fe064e3a7f45234a3658315a86d80b85f5f49f8a1767e1453116bd23eda67a014c521cf26529fb6bbada3441e64ddffef98ddfa85ae846d8aec72ba6fc70</string>
               <key>hash_algorithm</key>
-              <string>md5</string>
+              <string>blake2b</string>
               <key>url</key>
-              <string>https://pkg.alchemyviewer.org/repository/autobuild-internal/fmodstudio/windows64/fmodstudio-2.01.04.417-windows64-417.tar.bz2</string>
+              <string>https://git.alchemyviewer.org/api/v4/projects/49/packages/generic/fmodstudio/2.02.06.1475/fmodstudio-2.02.06-windows64-1475.tar.zst</string>
             </map>
             <key>name</key>
             <string>windows64</string>
           </map>
         </map>
         <key>version</key>
-        <string>2.01.04.417</string>
+        <string>2.02.06</string>
       </map>
       <key>fonts</key>
       <map>
