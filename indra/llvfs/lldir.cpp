@@ -338,7 +338,7 @@ const std::string &LLDir::getDumpDir() const
 					+ "dump-" + uid.asString();
 		*/
 
-		sDumpDir = getExpandedFilename(LL_PATH_LOGS, "") + "singularity-debug";
+		sDumpDir = getExpandedFilename(LL_PATH_LOGS, "") + "Atlas-debug";
 		dir_exists_or_crash(sDumpDir);
 	}
 
@@ -374,9 +374,9 @@ const std::string  LLDir::getCacheDir(bool get_default) const
 }
 
 #if (defined(_WIN64) || defined(__amd64__) || defined(__x86_64__))
-#define OS_CACHE_DIR "SingularityViewer64"
+#define OS_CACHE_DIR "AtlasViewer64"
 #else
-#define OS_CACHE_DIR "SingularityViewer"
+#define OS_CACHE_DIR "AtlasViewer"
 #endif
 
 // Return the default cache directory

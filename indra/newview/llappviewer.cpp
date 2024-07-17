@@ -353,13 +353,13 @@ BOOL gLogoutInProgress = FALSE;
 // Internal globals... that should be removed.
 static std::string gArgs;
 const int MAX_MARKER_LENGTH = 1024;
-const std::string MARKER_FILE_NAME("Singularity.exec_marker");
-const std::string START_MARKER_FILE_NAME("Singularity.start_marker");;
-const std::string ERROR_MARKER_FILE_NAME("Singularity.error_marker");
-const std::string LLERROR_MARKER_FILE_NAME("Singularity.llerror_marker");
-const std::string LOGOUT_MARKER_FILE_NAME("Singularity.logout_marker");
-const std::string LOG_FILE("Singularity.log");
-extern const std::string OLD_LOG_FILE("Singularity.old");
+const std::string MARKER_FILE_NAME("Atlas.exec_marker");
+const std::string START_MARKER_FILE_NAME("Atlas.start_marker");;
+const std::string ERROR_MARKER_FILE_NAME("Atlas.error_marker");
+const std::string LLERROR_MARKER_FILE_NAME("Atlas.llerror_marker");
+const std::string LOGOUT_MARKER_FILE_NAME("Atlas.logout_marker");
+const std::string LOG_FILE("Atlas.log");
+extern const std::string OLD_LOG_FILE("Atlas.old");
 static BOOL gDoDisconnect = FALSE;
 static std::string gLaunchFileOnQuit;
 

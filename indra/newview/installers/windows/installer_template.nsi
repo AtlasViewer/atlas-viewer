@@ -194,7 +194,7 @@
 ;Version Information
 
   VIProductVersion "${VERSION_LONG}"
-  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "Singularity Viewer Installer"
+  VIAddVersionKey /LANG=${LANG_ENGLISH} "ProductName" "Atlas Viewer Installer"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "Comments" "A viewer for the meta-verse!"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "CompanyName" "${VENDORSTR}"
   VIAddVersionKey /LANG=${LANG_ENGLISH} "LegalCopyright" "Copyright © 2010-2020, ${VENDORSTR}"

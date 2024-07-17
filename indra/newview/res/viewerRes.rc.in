@@ -147,12 +147,12 @@ BEGIN
     BEGIN
         BLOCK "040904b0"
         BEGIN
-            VALUE "CompanyName", "Siana Gearz"
+            VALUE "CompanyName", "Atlas Viewer Team"
             VALUE "FileDescription", "${VIEWER_CHANNEL} Viewer"
             VALUE "FileVersion", "${VIEWER_VERSION_MAJOR}.${VIEWER_VERSION_MINOR}.${VIEWER_VERSION_PATCH}.${VIEWER_VERSION_REVISION}"
             VALUE "InternalName", "Second Life"
-            VALUE "LegalCopyright", "Copyright © 2001-2010, Linden Research, Inc., Copyright 2010 Siana Gearz"
-            VALUE "OriginalFilename", "SingularityViewer.exe"
+            VALUE "LegalCopyright", "Copyright ï¿½ 2001-2010, Linden Research, Inc., Copyright 2010 Siana Gearz, 2024-Present Atlas Team"
+            VALUE "OriginalFilename", "AtlasViewer.exe"
             VALUE "ProductName", "${VIEWER_CHANNEL} Viewer"
             VALUE "ProductVersion", "${VIEWER_VERSION_MAJOR}.${VIEWER_VERSION_MINOR}.${VIEWER_VERSION_PATCH}.${VIEWER_VERSION_REVISION}"
         END

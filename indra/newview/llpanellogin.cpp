@@ -936,11 +936,11 @@ void LLPanelLogin::loadLoginPage()
 	gViewerWindow->setMenuBackgroundColor(false, !LLViewerLogin::getInstance()->isInProductionGrid());
 	gLoginMenuBarView->setBackgroundColor(gMenuBarView->getBackgroundColor());
 
-	std::string singularity_splash_uri = gSavedSettings.getString("SingularitySplashPagePrefix");
-	if (!singularity_splash_uri.empty())
+	std::string atlas_splash_uri = gSavedSettings.getString("AtlasSplashPagePrefix");
+	if (!atlas_splash_uri.empty())
 	{
 		params["original_page"] = login_uri.asString();
-		login_uri = LLURI(singularity_splash_uri + gSavedSettings.getString("SingularitySplashPagePath"));
+		login_uri = LLURI(atlas_splash_uri + gSavedSettings.getString("AtlasSplashPagePath"));
 
 		// Copy any existent splash path params
 		auto& params_map = params.map();

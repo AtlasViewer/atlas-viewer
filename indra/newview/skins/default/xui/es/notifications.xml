@@ -6023,7 +6023,7 @@ porque la parcela está llena.
 		<usetemplate name="okbutton" yestext="Aceptar"/>
 	</notification>
 
-<!-- Singularity Specific notifications should go below here, alphabetically -->
+<!-- Atlas Specific notifications should go below here, alphabetically -->
 <!-- Singu Note: RLVa notifications come first here -->
 	<notification name="RLVChangeStrings">
 		Los cambios no surtirán efecto hasta reiniciar [APP_NAME].

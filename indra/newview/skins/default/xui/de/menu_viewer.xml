@@ -257,7 +257,7 @@
 		</menu>
 		<menu_item_call label="Über [APP_NAME]..." name="About Second Life..."/>
 	</menu>
-	<menu name="Singularity">
+	<menu name="Atlas">
 		<menu_item_call label="Alle Dialoge schließen" name="Close All Dialogs"/>
 		
 		<menu_item_call label="Täusche Abwesend-Status vor" name="Fake Away Status"/>

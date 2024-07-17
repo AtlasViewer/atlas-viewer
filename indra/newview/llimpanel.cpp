@@ -842,7 +842,7 @@ void LLFloaterIMPanel::addHistoryLine(const std::string &utf8msg, LLColor4 incol
 		LLStyleSP style(new LLStyle);
 		style->setColor(incolor);
 		style->mItalic = is_irc;
-		style->mBold = from_user && gSavedSettings.getBOOL("SingularityBoldGroupModerator") && isModerator(source);
+		style->mBold = from_user && gSavedSettings.getBOOL("AtlasBoldGroupModerator") && isModerator(source);
 		mHistoryEditor->appendText(utf8msg, false, prepend_newline, style, system);
 	}
 
